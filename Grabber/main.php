@@ -10,14 +10,17 @@
 
 include_once ('./lib/simple_html_dom.php');
 include_once ('classes.php');
-include_once ('DBHelper.php');
+include_once ('DataBase.php');
 
 ini_set('display_errors', true);
 ini_set('safe_mode', false);
 ini_set('allow_url_fopen', true);
 ini_set('allow_url_include', true);
 
-$db_helper = new DBHelper();
+$db_helper = new DataBase();
+$temp_course = new Course("HIHI", "7asytd", 3);
+$db_helper->addCourse($temp_course);
+$db_helper->close();
 
 //Setup the curl and return the html
 $curl = curl_init();
