@@ -15,16 +15,13 @@
  */
 class Course{
 
-    function __construct($code, $name, $credit){
-        $this->code = $code;
-        $this->name = $name;
-        $this->credit = $credit;
+    function __construct(){
     }
 
     public $code = "COMP2021";
     public $name = "Unix and Script Programming";
-    public $credit= 3;
-    public $prereq= array();
+    public $credit = 3;
+    public $prereq = array();
     public $exclude = array();
     public $attrib = array();
     public $pre_code = "NIL";
@@ -36,6 +33,12 @@ class Course{
           non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
     public $sections = array();
     public $need_match = true;
+
+    function __toString(){
+        return "Code: $this->code<br>Name: $this->name<br>Credit: $this->credit<br>Prereq: $this->prereq<br>
+                Exclude: $this->exclude<br>Attrib: $this->attrib<br>Pre Code: $this->pre_code<br>
+                Descript: $this->descript<br>Sections :$this->sections<br>Need Match: $this->need_match<br>";
+    }
 }
 
 /**
