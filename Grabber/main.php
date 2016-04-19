@@ -25,7 +25,7 @@ $crawler = new Crawler();
 
 echo "Getting..."."<br>";
 $crawler->crawler_get();
-echo "Loading..."."<br>";
+echo "Loading..."."<br><br>";
 $crawler->load_classes();
 
 $db_helper->close();

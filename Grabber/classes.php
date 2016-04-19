@@ -39,6 +39,28 @@ class Course{
                 Exclude: $this->exclude<br>Attrib: $this->attrib<br>Pre Code: $this->pre_code<br>
                 Descript: $this->descript<br>Sections :$this->sections<br>Need Match: $this->need_match<br>";
     }
+
+    function print_out(){
+        echo "Code: $this->code<br>Name: $this->name<br>Credit: $this->credit<br>";
+        echo "Prereq: ".count($this->prereq)."<br>";
+        foreach($this->prereq as $item){
+            echo $item."<br>";
+        }
+        echo "Exclude: ".count($this->exclude)."<br>";
+        foreach($this->exclude as $item){
+            echo $item."<br>";
+        }
+        echo "Attribute: ".count($this->attrib)."<br>";
+        foreach($this->attrib as $item){
+            echo $item."<br>";
+        }
+        echo "Pre Code: $this->pre_code<br>Descript: $this->descript<br>Need Match: $this->need_match<br>";
+        echo "Sections: ".count($this->sections)."<br>";
+        foreach($this->sections as $item){
+            echo $item."<br>";
+        }
+        echo "<br>";
+    }
 }
 
 /**

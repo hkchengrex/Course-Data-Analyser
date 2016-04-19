@@ -22,7 +22,6 @@ class Crawler{
         $page_string = curl_exec($curl);
         curl_close($curl);
 
-        echo $page_string;
         $page_html = str_get_html($page_string);
     }
 
@@ -46,9 +45,36 @@ class Crawler{
             $course->credit = substr($matches[0], 1, 1);
 
             //Get info in the popup detail
-            $popup_detail = $course_node->last_child()->find(".popupdetail", 0);
+            $popup_detail = $course_node->find('.courseattr', 0);
+            foreach ($popup_detail->find('tr') as $popup_item){
+                $message = $popup_item->find('td', 0)->plaintext;
+                switch ($popup_item->find('th', 0)->plaintext){
+                    case "ATTRIBUTES":
+                        $temp_array = explode('programs', $message);
+                        foreach($temp_array as $attri_item){
+                            $attri_item .= "programs";
+                        }
+                        array_pop($temp_array);
+                        $course->attrib = $temp_array;
+                        break;
+                    case "EXCLUSION":
+                        $temp_array = explode(', ', $message);
+                        $course->exclude = $temp_array;
+                        break;
+                    case "PRE-REQUISITE":
+                        $temp_array = explode(' OR ', $message);
+                        $course->exclude = $temp_array;
+                        break;
+                    case "PREVIOUS CODE":
+                        $course->pre_code = $message;
+                        break;
+                    case "DESCRIPTION":
+                        $course->descript = $message;
+                        break;
+                }
+            }
 
-            echo $course;
+            $course->print_out();
         }
     }
 }
