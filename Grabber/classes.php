@@ -76,6 +76,9 @@ class Course{
  * @var $match_id -         Integer, like 0/1/2/3 to identity matching between L/LA/T
  */
 class Section{
+    function __construct(){
+    }
+
     public $id = 1234;
     public $nature = "L";
     public $date_time = 'NIL';
@@ -86,6 +89,12 @@ class Section{
     public $wait = 34;
     public $match_id = 0;
     //$avail = $quota - $enroll - $wait
+
+    function print_out(){
+        echo "ID: $this->id<br>Nature: $this->nature<br>Date and Time: $this->date_time<br>
+              Room: $this->room<br>Instructor: $this->instructor<br>Quota: $this->quota<br>
+              Enroll: $this->enroll<br>Wait: $this->wait<br>Match ID: $this->match_id<br>";
+    }
 }
 
 ?>
