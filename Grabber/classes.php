@@ -57,9 +57,9 @@ class Course{
         echo "Pre Code: $this->pre_code<br>Descript: $this->descript<br>Need Match: $this->need_match<br>";
         echo "Sections: ".count($this->sections)."<br>";
         foreach($this->sections as $item){
-            echo $item."<br>";
+            echo $item->print_out();
         }
-        echo "<br>";
+        echo "<br><br>";
     }
 }
 
@@ -93,7 +93,7 @@ class Section{
     function print_out(){
         echo "ID: $this->id<br>Nature: $this->nature<br>Date and Time: $this->date_time<br>
               Room: $this->room<br>Instructor: $this->instructor<br>Quota: $this->quota<br>
-              Enroll: $this->enroll<br>Wait: $this->wait<br>Match ID: $this->match_id<br>";
+              Enroll: $this->enroll<br>Wait: $this->wait<br>Match ID: $this->match_id<br><br>";
     }
 }
 
