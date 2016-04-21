@@ -5,7 +5,6 @@
  *      Chan Nok Hin
  *      Cheng Ho Kei 12219689
  *      Sze Ka Yau
- * Licensed under MIT license
  */
 
 include_once ('./lib/simple_html_dom.php');
@@ -20,7 +19,7 @@ ini_set('allow_url_include', true);
 
 echo "Starting..."."<br>";
 
-$db_helper = new DataBase();
+$db_helper = new DataBase('database.db');
 $crawler = new Crawler();
 
 echo "Getting..."."<br>";

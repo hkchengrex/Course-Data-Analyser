@@ -1,0 +1,1 @@
+Please set the php.ini correctly, can use phpinfo() to help
