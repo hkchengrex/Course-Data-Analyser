@@ -100,8 +100,33 @@ class Crawler{
                 $section->nature =  $matches[0];
 
                 //Get the match id, 1/2/3/...
-                preg_match("/(?:LA|L|T)[0-9]+/", $section_items[0], $matches);
-                $section->match_id = $matches[0];
+                preg_match("/(?:LA|L|T)([0-9]+)/", $section_items[0], $matches);
+                $section->match_id = $matches[1];
+
+                //Get the course unique id
+                preg_match("/\(([0-9]+)\)/", $section_items[0], $matches);
+                $section->id = $matches[1];
+
+                //One contains date and time
+                $section->date_time = $section_items[1];
+
+                //Two contains room and capacity
+                $section->room = substr($section_items[2], 0, strrpos($section_items[2], '(')-1);
+
+                //Three contains instructor
+                $section->instructor = $section_items[3];
+
+                //Four contains Quota
+                $section->quota = $section_items[4];
+
+                //Five contains enroll
+                $section->enroll = $section_items[5];
+
+                //Six contains Avail
+                //Seven contains wait
+                $section->wait = $section_items[7];
+
+                //Eight contains remark
 
                 array_push($course->sections, $section);
             }
