@@ -27,6 +27,12 @@ $crawler->crawler_get();
 echo "Loading..."."<br><br>";
 $crawler->load_classes();
 
+foreach($crawler->loaded_class as $course){
+    /** @var Course $course*/
+    $db_helper->addCourse($course);
+    $course->print_out();
+}
+
 $db_helper->close();
 
 ?>

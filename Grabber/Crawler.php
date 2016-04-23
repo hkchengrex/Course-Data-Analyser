@@ -6,15 +6,16 @@ class Crawler{
     public $page_html;
 
     public $curl;
-    public $got_class = array();
+    public $loaded_class = array();
 
     public function __construct() {
-        global $curl;
+        global $curl, $loaded_class;
         $curl = curl_init();
         curl_setopt($curl, CURLOPT_URL, "https://w5.ab.ust.hk/wcq/cgi-bin/1530/subject/COMP");
         //Do not verify the site certificate
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+        $loaded_class = array();
     }
 
     public function crawler_get(){
@@ -31,6 +32,7 @@ class Crawler{
         /** @var Course $course*/
 
         global $page_html;
+
         foreach ($page_html->getElementById("classes")->find(".course") as $course_node){
             $course = new Course();
 
@@ -67,13 +69,15 @@ class Crawler{
                         break;
                     case "EXCLUSION":
                         //Separate items
-                        $temp_array = explode(', ', $message);
-                        $course->exclude = $temp_array;
+                        //$temp_array = explode(', ', $message);
+                        //$course->exclude = $temp_array;
+                        $course->exclude = $message;
                         break;
                     case "PRE-REQUISITE":
                         //Separate items
-                        $temp_array = explode(' OR ', $message);
-                        $course->prereq = $temp_array;
+                        //$temp_array = explode(' OR ', $message);
+                        //$course->prereq = $temp_array;
+                        $course->prereq = $message;
                         break;
                     case "PREVIOUS CODE":
                         //Directly assign
@@ -147,7 +151,7 @@ class Crawler{
                 array_push($course->sections, $section);
             }
 
-            $course->print_out();
+            array_push($this->loaded_class, $course);
         }
     }
 }

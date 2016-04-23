@@ -18,11 +18,11 @@ class Course{
     function __construct(){
     }
 
-    public $code = "COMP2021";
-    public $name = "Unix and Script Programming";
+    public $code = "NIL";
+    public $name = "NIL";
     public $credit = 3;
-    public $prereq = array();
-    public $exclude = array();
+    public $prereq = "NIL";
+    public $exclude = "NIL";
     public $attrib = array();
     public $pre_code = "NIL";
     public $descript = "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -42,14 +42,9 @@ class Course{
 
     function print_out(){
         echo "Code: $this->code<br>Name: $this->name<br>Credit: $this->credit<br>";
-        echo "Prereq: ".count($this->prereq)."<br>";
-        foreach($this->prereq as $item){
-            echo $item."<br>";
-        }
-        echo "Exclude: ".count($this->exclude)."<br>";
-        foreach($this->exclude as $item){
-            echo $item."<br>";
-        }
+        echo "Prereq: ".$this->prereq."<br>";
+        echo "Exclude: ".$this->exclude."<br>";
+
         echo "Attribute: ".count($this->attrib)."<br>";
         foreach($this->attrib as $item){
             echo $item."<br>";
