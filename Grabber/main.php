@@ -7,9 +7,9 @@
  *      Sze Ka Yau
  */
 
-include_once ('./lib/simple_html_dom.php');
-include_once ('classes.php');
-include_once ('DataBase.php');
+include_once('../lib/simple_html_dom.php');
+include_once('../shar/classes.php');
+include_once('../shar/DataBase.php');
 include_once ('Crawler.php');
 
 ini_set('display_errors', true);
