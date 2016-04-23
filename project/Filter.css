@@ -1,0 +1,46 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+{
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+  margin: 5em auto;
+  
+}
+
+.mix {
+  display: none;
+  text-align: center;
+  width: 45%;
+  margin: 1em 1%;
+  background-color: #ccc;
+}
+
+
+
+.white {
+  background-color: white;  
+  color: black;
+}
+
+
+button {
+  background: #666666;
+  border: none;
+  color: white;
+  padding: .65em;
+  border-radius: 5px;
+}
+
+input {
+  padding: .5em;
+}
+
+.title {
+  font-weight: 2em;
+}
