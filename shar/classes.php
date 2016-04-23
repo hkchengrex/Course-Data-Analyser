@@ -78,19 +78,26 @@ class Section{
     public $nature = "L";
     public $date_time = 'NIL';
     public $room = 'NIL';
-    public $instructor = 'NIL';
+    public $instructor = array();
     public $quota = 89;
     public $enroll = 12;
     public $avail = 43;
     public $wait = 34;
     public $match_id = 0;
     public $remark = "";
-    public $consent = true;
+    public $consent = false;
     //$avail = $quota - $enroll - $wait
 
     function print_out(){
         echo "ID: $this->id<br>Nature: $this->nature<br>Date and Time: $this->date_time<br>
-              Room: $this->room<br>Instructor: $this->instructor<br>Quota: $this->quota<br>
+              Room: $this->room<br>";
+
+        echo "Instructor: ".count($this->instructor)."<br>";
+        foreach ($this->instructor as $item){
+            echo $item."<br>";
+        }
+
+        echo "Quota: $this->quota<br>
               Enroll: $this->enroll<br>Wait: $this->wait<br>Match ID: $this->match_id<br>
               Remark: $this->remark<br>Consent: $this->consent<br><br>";
     }

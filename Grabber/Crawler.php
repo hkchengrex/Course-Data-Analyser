@@ -115,14 +115,20 @@ class Crawler{
                 $section->date_time = $section_items[1]->plaintext;
 
                 //Two contains room and capacity
-                if (strcmp($section_items[2], 'TBA')){
+                if (strcmp($section_items[2]->plaintext, 'TBA') == 0){
                     $section->room = 'TBA';
                 }else {
                     $section->room = substr($section_items[2]->plaintext, 0, strrpos($section_items[2]->plaintext, '(') - 1);
                 }
 
                 //Three contains instructor
-                $section->instructor = $section_items[3]->plaintext;
+                //$section->instructor = $section_items[3]->plaintext;
+                foreach ($section_items[3]->find('a') as $instructor){
+                    array_push($section->instructor, $instructor->plaintext);
+                }
+                if (strcmp($section_items[3], 'TBA') == 0){
+                    $section->instructor[0] = 'TBA';
+                }
 
                 //Four contains Quota
                 preg_match("/([0-9]+)/", $section_items[4]->plaintext, $matches);
@@ -139,7 +145,8 @@ class Crawler{
 
                 //Eight contains remark and consent
                 if ($section_items[8]->find('.classnotes', 0) !== null){
-                    $section->remark = $section_items[8]->find('.classnotes', 0)->find('.popupdetail', 0)->plaintext;
+                    $shit = $section_items[8]->find('.classnotes', 0)->find('.popupdetail', 0)->plaintext;
+                    $section->remark = str_replace('&gt; ', '', $shit);
                 }
 
                 if ($section_items[8]->find('.consent', 0) !== null){
