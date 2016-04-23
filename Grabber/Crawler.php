@@ -73,7 +73,7 @@ class Crawler{
                     case "PRE-REQUISITE":
                         //Separate items
                         $temp_array = explode(' OR ', $message);
-                        $course->exclude = $temp_array;
+                        $course->prereq = $temp_array;
                         break;
                     case "PREVIOUS CODE":
                         //Directly assign
@@ -96,37 +96,53 @@ class Crawler{
                 $matches = array();
 
                 //Get the nature, L/T/LA
-                preg_match("/(LA|L|T)/", $section_items[0], $matches);
+                preg_match("/(LA|L|T|R)/", $section_items[0]->plaintext, $matches);
                 $section->nature =  $matches[0];
 
                 //Get the match id, 1/2/3/...
-                preg_match("/(?:LA|L|T)([0-9]+)/", $section_items[0], $matches);
+                preg_match("/(?:LA|L|T|R)([0-9]+)/", $section_items[0]->plaintext, $matches);
                 $section->match_id = $matches[1];
 
                 //Get the course unique id
-                preg_match("/\(([0-9]+)\)/", $section_items[0], $matches);
+                preg_match("/\(([0-9]+)\)/", $section_items[0]->plaintext, $matches);
                 $section->id = $matches[1];
 
                 //One contains date and time
-                $section->date_time = $section_items[1];
+                $section->date_time = $section_items[1]->plaintext;
 
                 //Two contains room and capacity
-                $section->room = substr($section_items[2], 0, strrpos($section_items[2], '(')-1);
+                if (strcmp($section_items[2], 'TBA')){
+                    $section->room = 'TBA';
+                }else {
+                    $section->room = substr($section_items[2]->plaintext, 0, strrpos($section_items[2]->plaintext, '(') - 1);
+                }
 
                 //Three contains instructor
-                $section->instructor = $section_items[3];
+                $section->instructor = $section_items[3]->plaintext;
 
                 //Four contains Quota
-                $section->quota = $section_items[4];
+                preg_match("/([0-9]+)/", $section_items[4]->plaintext, $matches);
+                $section->quota = $matches[1];
 
                 //Five contains enroll
-                $section->enroll = $section_items[5];
+                $section->enroll = $section_items[5]->plaintext;
 
                 //Six contains Avail
-                //Seven contains wait
-                $section->wait = $section_items[7];
+                $section->avail = $section_items[6]->plaintext;
 
-                //Eight contains remark
+                //Seven contains wait
+                $section->wait = $section_items[7]->plaintext;
+
+                //Eight contains remark and consent
+                if ($section_items[8]->find('.classnotes', 0) !== null){
+                    $section->remark = $section_items[8]->find('.classnotes', 0)->find('.popupdetail', 0)->plaintext;
+                }
+
+                if ($section_items[8]->find('.consent', 0) !== null){
+                    $section->consent = true;
+                }else{
+                    $section->consent = false;
+                }
 
                 array_push($course->sections, $section);
             }

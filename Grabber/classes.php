@@ -66,7 +66,7 @@ class Course{
 /**
  * A class for section data.
  * @var $id -               Integer, i.e. 1737
- * @var $nature -           String, i.e. L(lecture)/LA(Lab)/T(Tutorial)
+ * @var $nature -           String, i.e. L(lecture)/LA(Lab)/T(Tutorial)/R(Research)
  * @var $date_time -        String, i.e. We 09:00AM - 10:50AM
  * @var $room -             String, i.e. Rm 5620, Lift 31-32
  * @var $instructor -       String, i.e. CHENG, Ho Kei
@@ -86,14 +86,18 @@ class Section{
     public $instructor = 'NIL';
     public $quota = 89;
     public $enroll = 12;
+    public $avail = 43;
     public $wait = 34;
     public $match_id = 0;
+    public $remark = "";
+    public $consent = true;
     //$avail = $quota - $enroll - $wait
 
     function print_out(){
         echo "ID: $this->id<br>Nature: $this->nature<br>Date and Time: $this->date_time<br>
               Room: $this->room<br>Instructor: $this->instructor<br>Quota: $this->quota<br>
-              Enroll: $this->enroll<br>Wait: $this->wait<br>Match ID: $this->match_id<br><br>";
+              Enroll: $this->enroll<br>Wait: $this->wait<br>Match ID: $this->match_id<br>
+              Remark: $this->remark<br>Consent: $this->consent<br><br>";
     }
 }
 
