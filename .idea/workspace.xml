@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f6336fa-5721-41aa-ae2f-5c245a2af2e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/database.db" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/get_line_graph.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Grabber/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Grabber/db/database.db" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Grabber/output" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/HW2.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/cgi-bin/checkScore.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/checkScore.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/gci_bin/checkScore.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/HW2/grade.csv" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Grabber/DataBase.php" afterPath="$PROJECT_DIR$/shar/DataBase.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Grabber/classes.php" afterPath="$PROJECT_DIR$/shar/classes.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Grabber/lib/simple_html_dom.php" afterPath="$PROJECT_DIR$/lib/simple_html_dom.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Grabber/php.ini" afterPath="$PROJECT_DIR$/php.ini" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grabber/main.php" afterPath="$PROJECT_DIR$/Grabber/main.php" />
     </list>
     <ignored path="Course-Data-Analyser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,12 +24,6 @@
     <option name="SORT_POSITIONED" value="false" />
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -327,7 +306,7 @@
       <workItem from="1461333764595" duration="2000" />
       <workItem from="1461404109440" duration="8356000" />
       <workItem from="1461417026391" duration="852000" />
-      <workItem from="1461419458541" duration="812000" />
+      <workItem from="1461419458541" duration="886000" />
     </task>
     <task id="LOCAL-00001" summary="Making database">
       <created>1460715522569</created>
@@ -347,7 +326,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54791000" />
+    <option name="totallyTimeSpent" value="54865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
