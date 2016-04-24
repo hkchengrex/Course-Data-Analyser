@@ -17,7 +17,7 @@ if (empty($_REQUEST['code'])){
     $course_code = $_REQUEST['code'];
 }
 
-$sections = $db_helper->get_sections($course_code);
+$sections = $db_helper->getSections($course_code);
 $sections_data = array();
 foreach ($sections as $section){
     /** @var Section $section */

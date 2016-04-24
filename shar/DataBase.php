@@ -57,7 +57,7 @@ add_section_query
 
         $instructor_ids = array();
         foreach ($section->instructor as $item){
-            array_push($instructor_ids, $this->get_instructor_id($item));
+            array_push($instructor_ids, $this->getInstructorId($item));
         }
 
         $query->bindValue(":instructor_id", implode(',', $instructor_ids));
@@ -68,7 +68,7 @@ add_section_query
         $query->execute();
     }
 
-    function get_instructor_id($name){
+    function getInstructorId($name){
         $query_result = $this->query("SELECT name, id from INSTRUCTOR where name = \"$name\"");
         $row = $query_result->fetchArray();
         if ($row !== false){
@@ -81,7 +81,7 @@ add_section_query
         }
     }
 
-    function get_sections($course_id){
+    function getSections($course_id){
         $query_result = $this->query("SELECT * FROM SECTION WHERE mother_code = \"$course_id\"");
         $sections = array();
         while($row = $query_result->fetchArray()){
@@ -95,5 +95,43 @@ add_section_query
             array_push($sections, $section);
         }
         return $sections;
+    }
+
+    function getCourses(){
+        $query_result = $this->query("SELECT * FROM COURSES");
+        $courses = array();
+        while($row = $query_result->fetchArray()){
+            $course = new Course();
+            $course->code = $row['code'];
+            $course->name = $row['name'];
+            $course->credit = $row['credit'];
+            $course->prereq = $row['prereq'];
+            $course->exclude = $row['exclusion'];
+            $course->attrib = $row['attribute'];
+            $course->pre_code = $row['previous_code'];
+            $course->descript = $row['description'];
+            $course->need_match = $row['need_matching'];
+            $course->sections = $this->getSections($course->code);
+            array_push($courses, $course);
+        }
+        return $courses;
+    }
+
+    function getCourse($course_code){
+        $query_result = $this->query("SELECT * FROM COURSES WHERE code=\"$course_code\"");
+        while($row = $query_result->fetchArray()){
+            $course = new Course();
+            $course->code = $row['code'];
+            $course->name = $row['name'];
+            $course->credit = $row['credit'];
+            $course->prereq = $row['prereq'];
+            $course->exclude = $row['exclusion'];
+            $course->attrib = explode('/sep/', $row['attribute']);
+            $course->pre_code = $row['previous_code'];
+            $course->descript = $row['description'];
+            $course->need_match = $row['need_matching'];
+            $course->sections = $this->getSections($course->code);
+            return $course;
+        }
     }
 }

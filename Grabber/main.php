@@ -23,9 +23,9 @@ $db_helper = new DataBase('database.db');
 $crawler = new Crawler();
 
 echo "Getting..."."<br>";
-$crawler->crawler_get();
+$crawler->crawlerGet();
 echo "Loading..."."<br><br>";
-$crawler->load_classes();
+$crawler->loadClasses();
 
 foreach($crawler->loaded_class as $course){
     /** @var Course $course*/

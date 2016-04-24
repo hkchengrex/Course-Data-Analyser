@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f6336fa-5721-41aa-ae2f-5c245a2af2e0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Filter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Image/BG.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Image/BG2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Image/WebBG.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Image/WebBG2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Image/header-background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Image/test.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Project.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Scroll.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/WebPage2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/animated-search-filter.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/detail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/database.db" afterPath="$PROJECT_DIR$/db/database.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Course-Data-Analyser.iml" afterPath="$PROJECT_DIR$/.idea/Course-Data-Analyser.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/get_line_graph.php" afterPath="$PROJECT_DIR$/Client/get_line_graph.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grabber/Crawler.php" afterPath="$PROJECT_DIR$/Grabber/Crawler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grabber/main.php" afterPath="$PROJECT_DIR$/Grabber/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shar/DataBase.php" afterPath="$PROJECT_DIR$/shar/DataBase.php" />
     </list>
     <ignored path="Course-Data-Analyser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,9 +44,9 @@
         <entry file="file://$PROJECT_DIR$/Grabber/main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
               <folding>
-                <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+                <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
               </folding>
             </state>
           </provider>
@@ -58,8 +55,8 @@
       <file leaf-file-name="classes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shar/classes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+            <state relative-caret-position="389">
+              <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -68,25 +65,29 @@
       <file leaf-file-name="DataBase.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shar/DataBase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+            <state relative-caret-position="332">
+              <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
               <folding>
-                <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-                <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-                <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-                <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-                <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-                <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-                <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-                <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-                <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-                <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-                <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-                <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-                <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-                <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-                <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-                <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
+                <marker date="1461489382823" expanded="true" signature="1388:1392" placeholder="..." />
+                <marker date="1461489382823" expanded="true" signature="2734:2778" placeholder="SELECT name INSTRUCTOR" />
+                <marker date="1461489382823" expanded="true" signature="2734:2779" placeholder="SELECT name,... INSTRUCTOR" />
+                <marker date="1461489382823" expanded="true" signature="2734:2780" placeholder="SELECT name,... INSTRUCTOR" />
+                <marker date="1461489382823" expanded="true" signature="2734:2781" placeholder="SELECT name,... INSTRUCTOR" />
+                <marker date="1461489382823" expanded="true" signature="2734:2788" placeholder="SELECT name,... INSTRUCTOR" />
+                <marker date="1461489382823" expanded="true" signature="2734:2790" placeholder="SELECT name INSTRUCTOR" />
+                <marker date="1461489382823" expanded="true" signature="2948:2979" placeholder="INSERT INTO INSTRUCTOR... " />
+                <marker date="1461489382823" expanded="true" signature="2948:2994" placeholder="INSERT INTO INSTRUCTOR... " />
+                <marker date="1461489382823" expanded="true" signature="3214:3227" placeholder="SELECT * FRO... " />
+                <marker date="1461489382823" expanded="true" signature="3214:3255" placeholder="SELECT * FRO... SECTION" />
+                <marker date="1461489382823" expanded="true" signature="3214:3256" placeholder="SELECT * FRO... SECTION" />
+                <marker date="1461489382823" expanded="true" signature="3214:3258" placeholder="SELECT * FRO... SECTION" />
+                <marker date="1461489382823" expanded="true" signature="3214:3259" placeholder="SELECT * FRO... SECTION" />
+                <marker date="1461489382823" expanded="true" signature="3214:3269" placeholder="SELECT * FRO... SECTION" />
+                <marker date="1461489382823" expanded="true" signature="3214:3270" placeholder="SELECT * FRO... SECTION" />
+                <marker date="1461489382823" expanded="true" signature="3826:3847" placeholder="SELECT * FRO... COURSES" />
+                <marker date="1461489382823" expanded="true" signature="4634:4667" placeholder="SELECT * FRO... COURSES" />
+                <marker date="1461489382823" expanded="true" signature="4634:4669" placeholder="SELECT * FRO... COURSES" />
+                <marker date="1461489382823" expanded="true" signature="4634:4683" placeholder="SELECT * FRO... COURSES" />
               </folding>
             </state>
           </provider>
@@ -95,11 +96,11 @@
       <file leaf-file-name="get_line_graph.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/get_line_graph.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+            <state relative-caret-position="189">
+              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
-                <marker date="1461427390316" expanded="true" signature="706:744" placeholder="SELECT * FRO... DATA" />
-                <marker date="1461427390316" expanded="true" signature="706:755" placeholder="SELECT * FRO... DATA" />
+                <marker date="1461486962805" expanded="true" signature="705:743" placeholder="SELECT * FRO... DATA" />
+                <marker date="1461486962805" expanded="true" signature="705:754" placeholder="SELECT * FRO... DATA" />
               </folding>
             </state>
           </provider>
@@ -108,20 +109,45 @@
       <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="41" selection-end-column="17" />
+            <state relative-caret-position="135">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Crawler.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Crawler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Grabber/Crawler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+            <state relative-caret-position="178">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding>
-                <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
+                <marker date="1461488168381" expanded="true" signature="6450:6463" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Client/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+              <folding>
+                <marker date="1461486978048" expanded="true" signature="922:1028" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="detail.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client/detail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="47" column="81" selection-start-line="47" selection-start-column="81" selection-end-line="47" selection-end-column="81" />
+              <folding>
+                <marker date="1461489997500" expanded="true" signature="862:872" placeholder="..." />
+                <marker date="1461489997500" expanded="true" signature="1715:1724" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -143,12 +169,14 @@
         <option value="$PROJECT_DIR$/Grabber/test.php" />
         <option value="$PROJECT_DIR$/Grabber/DataBase.php" />
         <option value="$PROJECT_DIR$/Grabber/classes.php" />
-        <option value="$PROJECT_DIR$/Grabber/main.php" />
         <option value="$PROJECT_DIR$/Client/test.php" />
         <option value="$PROJECT_DIR$/Client/get_line_graph.php" />
         <option value="$PROJECT_DIR$/shar/classes.php" />
-        <option value="$PROJECT_DIR$/shar/DataBase.php" />
+        <option value="$PROJECT_DIR$/Client/index.php" />
+        <option value="$PROJECT_DIR$/Grabber/main.php" />
         <option value="$PROJECT_DIR$/Grabber/Crawler.php" />
+        <option value="$PROJECT_DIR$/shar/DataBase.php" />
+        <option value="$PROJECT_DIR$/Client/detail.php" />
       </list>
     </option>
   </component>
@@ -192,11 +220,42 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-Data-Analyser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-Data-Analyser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-Data-Analyser" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-Data-Analyser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Course-Data-Analyser" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Client" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,6 +277,9 @@
       <method />
     </configuration>
     <configuration default="false" name="get_line_graph.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Course-Data-Analyser/Client/get_line_graph.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Course-Data-Analyser/Client/index.php">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -253,14 +315,16 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.main.php" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.get_line_graph.php" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.main.php" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.get_line_graph.php" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.get_line_graph.php" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +358,8 @@
       <workItem from="1461333764595" duration="2000" />
       <workItem from="1461404109440" duration="8356000" />
       <workItem from="1461417026391" duration="852000" />
-      <workItem from="1461419458541" duration="13408000" />
+      <workItem from="1461419458541" duration="16491000" />
+      <workItem from="1461482758014" duration="6100000" />
     </task>
     <task id="LOCAL-00001" summary="Making database">
       <created>1460715522569</created>
@@ -314,13 +379,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67387000" />
+    <option name="totallyTimeSpent" value="76570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14166667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14166667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -363,47 +428,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shar/DataBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding>
-            <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-            <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Grabber/Crawler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Grabber/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -421,22 +451,26 @@
         <state relative-caret-position="459">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-            <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="1388:1392" placeholder="..." />
+            <marker date="1461489382823" expanded="true" signature="2734:2778" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2779" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2780" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2781" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2788" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2790" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2948:2979" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="2948:2994" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3227" placeholder="SELECT * FRO... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3255" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3256" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3258" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3259" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3269" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3270" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3826:3847" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4667" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4669" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4683" placeholder="SELECT * FRO... COURSES" />
           </folding>
         </state>
       </provider>
@@ -446,7 +480,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
+            <marker date="1461488168381" expanded="true" signature="6450:6463" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -456,7 +490,7 @@
         <state relative-caret-position="378">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -474,22 +508,26 @@
         <state relative-caret-position="459">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-            <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="1388:1392" placeholder="..." />
+            <marker date="1461489382823" expanded="true" signature="2734:2778" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2779" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2780" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2781" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2788" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2790" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2948:2979" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="2948:2994" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3227" placeholder="SELECT * FRO... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3255" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3256" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3258" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3259" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3269" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3270" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3826:3847" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4667" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4669" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4683" placeholder="SELECT * FRO... COURSES" />
           </folding>
         </state>
       </provider>
@@ -499,7 +537,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
+            <marker date="1461488168381" expanded="true" signature="6450:6463" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -509,7 +547,7 @@
         <state relative-caret-position="378">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -527,22 +565,26 @@
         <state relative-caret-position="459">
           <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
           <folding>
-            <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-            <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="1388:1392" placeholder="..." />
+            <marker date="1461489382823" expanded="true" signature="2734:2778" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2779" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2780" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2781" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2788" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2790" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2948:2979" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="2948:2994" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3227" placeholder="SELECT * FRO... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3255" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3256" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3258" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3259" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3269" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3270" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3826:3847" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4667" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4669" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4683" placeholder="SELECT * FRO... COURSES" />
           </folding>
         </state>
       </provider>
@@ -552,7 +594,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
+            <marker date="1461488168381" expanded="true" signature="6450:6463" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -562,7 +604,7 @@
         <state relative-caret-position="459">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -580,22 +622,26 @@
         <state relative-caret-position="216">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
           <folding>
-            <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-            <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="1388:1392" placeholder="..." />
+            <marker date="1461489382823" expanded="true" signature="2734:2778" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2779" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2780" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2781" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2788" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2790" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2948:2979" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="2948:2994" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3227" placeholder="SELECT * FRO... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3255" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3256" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3258" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3259" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3269" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3270" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3826:3847" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4667" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4669" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4683" placeholder="SELECT * FRO... COURSES" />
           </folding>
         </state>
       </provider>
@@ -605,7 +651,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
+            <marker date="1461488168381" expanded="true" signature="6450:6463" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -615,7 +661,7 @@
         <state relative-caret-position="756">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -625,7 +671,7 @@
         <state relative-caret-position="81">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
+            <marker date="1461488168381" expanded="true" signature="6450:6463" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -643,22 +689,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-            <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="1388:1392" placeholder="..." />
+            <marker date="1461489382823" expanded="true" signature="2734:2778" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2779" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2780" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2781" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2788" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2790" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2948:2979" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="2948:2994" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3227" placeholder="SELECT * FRO... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3255" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3256" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3258" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3259" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3269" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3270" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3826:3847" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4667" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4669" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4683" placeholder="SELECT * FRO... COURSES" />
           </folding>
         </state>
       </provider>
@@ -668,7 +718,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -678,7 +728,7 @@
         <state relative-caret-position="81">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
+            <marker date="1461488168381" expanded="true" signature="6450:6463" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -696,22 +746,26 @@
         <state relative-caret-position="405">
           <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding>
-            <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-            <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="1388:1392" placeholder="..." />
+            <marker date="1461489382823" expanded="true" signature="2734:2778" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2779" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2780" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2781" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2788" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2790" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2948:2979" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="2948:2994" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3227" placeholder="SELECT * FRO... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3255" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3256" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3258" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3259" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3269" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3270" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3826:3847" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4667" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4669" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4683" placeholder="SELECT * FRO... COURSES" />
           </folding>
         </state>
       </provider>
@@ -721,7 +775,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -731,7 +785,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -741,7 +795,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -751,7 +805,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -761,7 +815,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
@@ -825,22 +879,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Grabber/get_graph.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Grabber/output">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Grabber/get_graph.php" />
+    <entry file="file://$PROJECT_DIR$/Grabber/output" />
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/sqlite3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="587">
@@ -849,74 +889,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Grabber/main.php">
+    <entry file="file://$PROJECT_DIR$/Client/get_line_graph.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="189">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <marker date="1461420184407" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
+            <marker date="1461486962805" expanded="true" signature="705:743" placeholder="SELECT * FRO... DATA" />
+            <marker date="1461486962805" expanded="true" signature="705:754" placeholder="SELECT * FRO... DATA" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/test.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="41" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shar/classes.php">
+    <entry file="file://$PROJECT_DIR$/Client/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Client/get_line_graph.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        <state relative-caret-position="297">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
-            <marker date="1461427390316" expanded="true" signature="706:744" placeholder="SELECT * FRO... DATA" />
-            <marker date="1461427390316" expanded="true" signature="706:755" placeholder="SELECT * FRO... DATA" />
+            <marker date="1461486978048" expanded="true" signature="922:1028" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shar/DataBase.php">
+    <entry file="file://$PROJECT_DIR$/Grabber/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+        <state relative-caret-position="513">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <marker date="1461433614638" expanded="true" signature="1388:1392" placeholder="..." />
-            <marker date="1461433614638" expanded="true" signature="2738:2782" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2783" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2784" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2785" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2792" placeholder="SELECT name,... INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2738:2794" placeholder="SELECT name INSTRUCTOR" />
-            <marker date="1461433614638" expanded="true" signature="2952:2983" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="2952:2998" placeholder="INSERT INTO INSTRUCTOR... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3232" placeholder="SELECT * FRO... " />
-            <marker date="1461433614638" expanded="true" signature="3219:3260" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3261" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3263" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3264" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3274" placeholder="SELECT * FRO... SECTION" />
-            <marker date="1461433614638" expanded="true" signature="3219:3275" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461486998032" expanded="false" signature="9:124" placeholder=" A COMP2021 Project in HKUST ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Grabber/Crawler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
+        <state relative-caret-position="178">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1461434410132" expanded="true" signature="6355:6368" placeholder="..." />
+            <marker date="1461488168381" expanded="true" signature="6450:6463" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shar/classes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shar/DataBase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="124" column="41" selection-start-line="124" selection-start-column="41" selection-end-line="124" selection-end-column="41" />
+          <folding>
+            <marker date="1461489382823" expanded="true" signature="1388:1392" placeholder="..." />
+            <marker date="1461489382823" expanded="true" signature="2734:2778" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2779" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2780" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2781" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2788" placeholder="SELECT name,... INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2734:2790" placeholder="SELECT name INSTRUCTOR" />
+            <marker date="1461489382823" expanded="true" signature="2948:2979" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="2948:2994" placeholder="INSERT INTO INSTRUCTOR... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3227" placeholder="SELECT * FRO... " />
+            <marker date="1461489382823" expanded="true" signature="3214:3255" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3256" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3258" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3259" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3269" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3214:3270" placeholder="SELECT * FRO... SECTION" />
+            <marker date="1461489382823" expanded="true" signature="3826:3847" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4667" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4669" placeholder="SELECT * FRO... COURSES" />
+            <marker date="1461489382823" expanded="true" signature="4634:4683" placeholder="SELECT * FRO... COURSES" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="47" column="81" selection-start-line="47" selection-start-column="81" selection-end-line="47" selection-end-column="81" />
+          <folding>
+            <marker date="1461489997500" expanded="true" signature="862:872" placeholder="..." />
+            <marker date="1461489997500" expanded="true" signature="1715:1724" placeholder="..." />
           </folding>
         </state>
       </provider>

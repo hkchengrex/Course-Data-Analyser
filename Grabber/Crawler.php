@@ -9,16 +9,18 @@ class Crawler{
     public $loaded_class = array();
 
     public function __construct() {
-        global $curl, $loaded_class;
+        global $curl;
+
         $curl = curl_init();
-        curl_setopt($curl, CURLOPT_URL, "https://w5.ab.ust.hk/wcq/cgi-bin/1530/subject/COMP");
+        //curl_setopt($curl, CURLOPT_URL, "https://w5.ab.ust.hk/wcq/cgi-bin/1530/subject/COMP");
+        curl_setopt($curl, CURLOPT_URL, "http://ihome.ust.hk/~nhchanaa/cgi-bin/Page.php");
         //Do not verify the site certificate
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-        $loaded_class = array();
+        curl_setopt($curl, CURLOPT_HEADER, false);
     }
 
-    public function crawler_get(){
+    public function crawlerGet(){
         global $curl, $page_string, $page_html;
         $page_string = curl_exec($curl);
         curl_close($curl);
@@ -26,7 +28,7 @@ class Crawler{
         $page_html = str_get_html($page_string);
     }
 
-    public function load_classes(){
+    public function loadClasses(){
         /** @var simple_html_dom $page_html*/
         /** @var simple_html_dom_node $course_node*/
         /** @var Course $course*/
