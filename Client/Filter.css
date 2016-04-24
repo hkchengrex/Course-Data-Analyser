@@ -21,7 +21,9 @@
   background-color: #ccc;
 }
 
-
+.mix img{
+  width: 100%;
+}
 
 .white {
   background-color: white;  
@@ -39,8 +41,4 @@ button {
 
 input {
   padding: .5em;
-}
-
-.title {
-  font-weight: 2em;
 }

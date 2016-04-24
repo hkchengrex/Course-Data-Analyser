@@ -24,13 +24,15 @@ if (empty($_REQUEST['code'])){
 </style>
 
 <head>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="Scroll.css">
 </head>
 
 <body>
 <p><img src="Image/header-background.jpg" width="1303" height="70" alt="Header"></p>
 <?php
-echo "<h2><font color=\"white\">$course->code - $course->name</font></h2>";
+echo "<br>";
+echo "<h1 class='title'>$course->code - $course->name</h1>";
 ?>
 
 <p>&nbsp;</p>
@@ -39,25 +41,46 @@ echo "<h2><font color=\"white\">$course->code - $course->name</font></h2>";
         <div class="Wrapper">
             <div class="RightContent">
                 <?php
-                echo "<table style=\"width:100%\">";
+                echo "<table class = 'detail' style=\"width:100%\">";
                 echo "<tr><td>Credit</td><td>$course->credit</td></tr>";
                 $span = count($course->attrib)+1;
                 echo "<tr><td rowspan=\"$span\">Attribute</td><br>";
                 foreach ($course->attrib as $item){
-                    echo "<tr><td>$item</td></tr>";
+                    if (strcmp($item, '') == 0){
+                        echo "<tr><td>None</td></tr>";
+                    }else{
+                        echo "<tr><td>$item</td></tr>";
+                    }
                 }
                 echo "</tr>";
-                echo "<tr><td>Pre-requisite</td><td>$course->prereq</td></tr>";
-                echo "<tr><td>Exclusion</td><td>$course->exclude</td></tr>";
-                echo "<tr><td>Previous Code</td><td>$course->pre_code</td></tr>";
+
+                if (strcmp($course->prereq, 'NIL') == 0){
+                    echo "<tr><td>Pre-requisite</td><td>None</td></tr>";
+                }else{
+                    echo "<tr><td>Pre-requisite</td><td>$course->prereq</td></tr>";
+                }
+
+                if (strcmp($course->exclude, 'NIL') == 0){
+                    echo "<tr><td>Exclusion</td><td>None</td></tr>";
+                }else{
+                    echo "<tr><td>Exclusion</td><td>$course->exclude</td></tr>";
+                }
+
+
+                if (strcmp($course->pre_code, 'NIL') == 0){
+                    echo "<tr><td>Previous Code</td><td>None</td></tr>";
+                }else{
+                    echo "<tr><td>Previous Code</td><td>$course->pre_code</td></tr>";
+                }
+
                 echo "<tr><td>Description</td><td>$course->descript</td></tr>";
 
                 echo "</table><br>";
 
                 if (count($lectures)>0) {
-                    echo "<h3>Lecture: </h3>";
+                    echo "<h3 class='l_title'>Lecture: </h3>";
                     foreach ($lectures as $section) {
-                        echo "<table class='lecture_table'style=\"width:80%\">";
+                        echo "<table class='lecture_table' style=\"width:80%\">";
                         echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
                         echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
                         echo "<tr><td>Room</td><td>$section->room</td></tr>";
@@ -68,9 +91,9 @@ echo "<h2><font color=\"white\">$course->code - $course->name</font></h2>";
                 }
 
                 if (count($labs)>0) {
-                    echo "<h3>Labs: </h3>";
+                    echo "<h3 class='la_title'>Labs: </h3>";
                     foreach ($labs as $section) {
-                        echo "<table class='lab_table'style=\"width:80%\">";
+                        echo "<table class='lab_table' style=\"width:80%\">";
                         echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
                         echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
                         echo "<tr><td>Room</td><td>$section->room</td></tr>";
@@ -81,9 +104,9 @@ echo "<h2><font color=\"white\">$course->code - $course->name</font></h2>";
                 }
 
                 if (count($tutorials)>0) {
-                    echo "<h3>Tutorials: </h3>";
+                    echo "<h3 class='t_title'>Tutorials: </h3>";
                     foreach ($tutorials as $section) {
-                        echo "<table class='tut_table'style=\"width:80%\">";
+                        echo "<table class='tut_table' style=\"width:80%\">";
                         echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
                         echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
                         echo "<tr><td>Room</td><td>$section->room</td></tr>";
@@ -94,9 +117,9 @@ echo "<h2><font color=\"white\">$course->code - $course->name</font></h2>";
                 }
 
                 if (count($researches)>0) {
-                    echo "<h3>Researches: </h3>";
+                    echo "<h3 class='r_title'>Researches: </h3>";
                     foreach ($researches as $section) {
-                        echo "<table class='re_table'style=\"width:80%\">";
+                        echo "<table class='re_table' style=\"width:80%\">";
                         echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
                         echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
                         echo "<tr><td>Room</td><td>$section->room</td></tr>";
@@ -110,11 +133,23 @@ echo "<h2><font color=\"white\">$course->code - $course->name</font></h2>";
             </div>
             <div class="LeftContent">
                 <?php
-                echo "<table>";
-                echo "<img src=\"get_line_overall.php?code=$course->code\"/>";
+                echo "<table class='graphs'>";
+                echo "<tr><td colspan='2'><img class=\"graph\" src=\"get_line_overall.php?code=$course->code\"/></td></tr>";
+                $counter = 1;
                 foreach ($course->sections as $section){
-                    echo "<img src=\"get_line_section.php?code=$section->id\"/>";
+                    if ($counter%2){
+                        echo "<tr>";
+                    }
+                    echo "<td><img  class=\"graph\" src=\"get_line_section.php?code=$section->id\"/></td>";
+                    if (!$counter%2){
+                        echo "</tr>";
+                    }
+                    $counter++;
                 }
+                if (count($course->sections)%2){
+                    echo "</tr>";
+                }
+                echo "</table>";
                 ?>
             </div>
         </div>

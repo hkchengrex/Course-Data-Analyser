@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    overflow-x:hidden;
+}
+
 html, body, .Container
 {
     height: 100%;
@@ -42,24 +46,34 @@ html, body, .Container
 .Wrapper > div
 {
     height: 100%;
+
 }
 
 .LeftContent
 {
-
-    overflow: hidden;
-    width:500px;
-
+    width:55%;
 }
-.LeftContent:hover
-{
-    overflow: auto;
+
+.graph{
+    width: 90%;
+    height: auto;
 }
+
+.graphs{
+    width: 100%;
+    text-align: center;
+}
+
+.graphs td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .RightContent
 {
     float: right;
     margin-left: 10px;
-    width: 600px;
+    width: 44%;
 
 }
 p.info {
@@ -70,11 +84,63 @@ table td, table td * {
     vertical-align: top;
 }
 
-.table1 {
-    background: rgba(255,255,255,0.5);
+td{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
-td{
-    background: rgba(255,255,255,0.5);
-    color: white;
+.detail td{
+    background: rgba(255,255,255,0.6);
+}
+
+.lecture_table td{
+    background: rgba(200,255,255,0.6);
+}
+
+.lab_table td{
+    background: rgba(255,200,200,0.6);
+}
+
+.tut_table td{
+    background: rgba(200,200,255,0.6);
+}
+
+.re_table td{
+    background: rgba(255,255,200,0.6);
+}
+
+.l_title{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background: rgba(200,255,255,0.6);
+    display: inline;
+}
+
+.la_title{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background: rgba(255,200,200,0.6);
+    display: inline;
+}
+
+.t_title{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background: rgba(200,200,255,0.6);
+    display: inline;
+}
+
+.r_title{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    background: rgba(255,255,200,0.6);
+    display: inline;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: whitesmoke;
 }

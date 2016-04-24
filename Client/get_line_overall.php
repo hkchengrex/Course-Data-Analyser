@@ -40,7 +40,6 @@ $theme_class = new UniversalTheme;
 $graph->SetTheme($theme_class);
 $graph->img->SetAntiAliasing(true);
 
-$graph->title->Set($course_code);
 $graph->SetBox(false);
 
 $graph->yaxis->title->Set("Occupancy (%)");
