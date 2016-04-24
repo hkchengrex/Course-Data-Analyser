@@ -68,21 +68,54 @@ add_section_query
         $query->execute();
     }
 
+    function addDataSet(Section $section, $time){
+        $query = $this->prepare(
+            <<<add_data_query
+        INSERT OR REPLACE INTO 
+                DATA ('section_id', 'time', 'enroll', 'wait', 'avail')
+                VALUES (:id, :time, :enroll, :wait, :avail);
+add_data_query
+        );
+        $query->bindValue(":id", $section->id);
+        $query->bindValue(":time", $time);
+        $query->bindValue(":enroll", $section->enroll);
+        $query->bindValue(":wait", $section->wait);
+        $query->bindValue(":avail", $section->avail);
+        $query->execute();
+    }
+
     function getInstructorId($name){
-        $query_result = $this->query("SELECT name, id from INSTRUCTOR where name = \"$name\"");
+        $query_result = $this->query(<<<get_instructor_id
+SELECT name, id from INSTRUCTOR where name = "$name"
+get_instructor_id
+);
         $row = $query_result->fetchArray();
         if ($row !== false){
             return $row['id'];
         }else{
-            $query = $this->prepare("INSERT INTO INSTRUCTOR ('name') VALUES (:name)");
+            $query = $this->prepare(<<<add_instructor_id
+INSERT INTO INSTRUCTOR ('name') VALUES (:name)
+add_instructor_id
+);
             $query->bindValue(":name", $name);
             $query->execute();
             return $this->lastInsertRowID();
         }
     }
 
+    function getInstructorName($id){
+        $query_result = $this->query(<<<get_instructor_name
+SELECT name, id from INSTRUCTOR where id = "$id"
+get_instructor_name
+        );
+        return $query_result->fetchArray()['name'];
+    }
+
     function getSections($course_id){
-        $query_result = $this->query("SELECT * FROM SECTION WHERE mother_code = \"$course_id\"");
+        $query_result = $this->query(<<<get_sections
+SELECT * FROM SECTION WHERE mother_code = "$course_id"
+get_sections
+);
         $sections = array();
         while($row = $query_result->fetchArray()){
             $section = new Section();
@@ -92,13 +125,42 @@ add_section_query
             $section->quota = $row['quota'];
             $section->room = $row['room'];
             $section->date_time = $row['date_time'];
+            $section->instructor = array();
+            foreach (explode(',', $row['instructor_id']) as $id){
+                array_push($section->instructor, $this->getInstructorName($id));
+            }
             array_push($sections, $section);
         }
         return $sections;
     }
 
+    function getSection($section_id){
+        $query_result = $this->query(<<<get_section
+SELECT * FROM SECTION WHERE id = "$section_id"
+get_section
+        );
+
+        $section = new Section();
+        while($row = $query_result->fetchArray()){
+            $section->id = $row['id'];
+            $section->nature = $row['nature'];
+            $section->match_id = $row['matching_id'];
+            $section->quota = $row['quota'];
+            $section->room = $row['room'];
+            $section->date_time = $row['date_time'];
+            $section->instructor = array();
+            foreach (explode(',', $row['instructor_id']) as $id){
+                array_push($section->instructor, $this->getInstructorName($id));
+            }
+        }
+        return $section;
+    }
+
     function getCourses(){
-        $query_result = $this->query("SELECT * FROM COURSES");
+        $query_result = $this->query(<<<get_courses
+SELECT * FROM COURSES
+get_courses
+);
         $courses = array();
         while($row = $query_result->fetchArray()){
             $course = new Course();
@@ -118,9 +180,12 @@ add_section_query
     }
 
     function getCourse($course_code){
-        $query_result = $this->query("SELECT * FROM COURSES WHERE code=\"$course_code\"");
+        $query_result = $this->query(<<<get_course
+SELECT * FROM COURSES WHERE code="$course_code"
+get_course
+);
+        $course = new Course();
         while($row = $query_result->fetchArray()){
-            $course = new Course();
             $course->code = $row['code'];
             $course->name = $row['name'];
             $course->credit = $row['credit'];
@@ -131,7 +196,7 @@ add_section_query
             $course->descript = $row['description'];
             $course->need_match = $row['need_matching'];
             $course->sections = $this->getSections($course->code);
-            return $course;
         }
+        return $course;
     }
 }

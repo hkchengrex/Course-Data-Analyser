@@ -2,157 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0720157-1e92-4c56-a939-712f5fe1a880" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/.svn/text-base/google.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/.svn/text-base/index.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/google.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/.svn/text-base/jquery.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/.svn/text-base/jquery.treeview.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/.svn/text-base/jquery.treeview.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/.svn/text-base/screen.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/images/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/images/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/images/.svn/prop-base/treeview-default-line.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/images/.svn/prop-base/treeview-default.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/images/.svn/text-base/treeview-default-line.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/images/.svn/text-base/treeview-default.gif.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/images/treeview-default-line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/images/treeview-default.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/jquery.treeview.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/jquery.treeview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/app/js/screen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/change_log.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/prop-base/example_callback.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/prop-base/example_extract_html.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/text-base/example_advanced_selector.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/text-base/example_basic_selector.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/text-base/example_callback.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/text-base/example_extract_html.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/text-base/example_modify_contents.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/.svn/text-base/simple_html_dom_utility.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/example_advanced_selector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/example_basic_selector.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/example_callback.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/example_extract_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/example_modify_contents.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/.svn/prop-base/example_scraping_digg.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/.svn/prop-base/example_scraping_imdb.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/.svn/prop-base/example_scraping_slashdot.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/.svn/text-base/example_scraping_digg.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/.svn/text-base/example_scraping_imdb.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/.svn/text-base/example_scraping_slashdot.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/example_scraping_digg.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/example_scraping_imdb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/scraping/example_scraping_slashdot.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/example/simple_html_dom_utility.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/.svn/prop-base/manual.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/.svn/prop-base/manual_api.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/.svn/prop-base/manual_faq.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/.svn/text-base/manual.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/.svn/text-base/manual_api.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/.svn/text-base/manual_faq.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/css/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/css/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/css/.svn/text-base/default.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/css/.svn/text-base/ui.tabs.css.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/css/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/css/ui.tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/img/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/img/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/img/.svn/prop-base/tab.png.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/img/.svn/text-base/tab.png.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/img/tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/js/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/js/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/js/.svn/text-base/jquery-1.2.3.pack.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/js/.svn/text-base/ui.tabs.pack.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/js/jquery-1.2.3.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/js/ui.tabs.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/manual.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/manual_api.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/manual/manual_faq.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/simple_html_dom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/all_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/callback_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/dom_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/element_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/invalid_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/jquery-1.2.3.pack.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/mass_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/memory_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/misc_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/performance_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/selector_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/slick_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/slickspeed.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/std_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/prop-base/strip_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/all_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/callback_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/dom_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/element_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/invalid_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/jquery-1.2.3.pack.js.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/mass_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/memory_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/misc_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/performance_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/selector_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/slick_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/slickspeed.htm.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/std_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/.svn/text-base/strip_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/all_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/callback_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/dom_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/element_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/html/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/html/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/invalid_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/jquery-1.2.3.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/mass_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/memory_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/misc_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/performance_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/all-wcprops" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/dir-prop-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/entries" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/prop-base/all_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/prop-base/element_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/prop-base/memory_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/prop-base/performance_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/prop-base/selector_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/text-base/all_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/text-base/element_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/text-base/memory_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/text-base/performance_test.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/.svn/text-base/selector_testcase.php.svn-base" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/all_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/element_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/memory_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/performance_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/reader/selector_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/selector_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/slick_test.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/slickspeed.htm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/std_testcase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/simplehtmldom_1_5/testcase/strip_testcase.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Crawler.php" afterPath="$PROJECT_DIR$/Crawler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes.php" afterPath="$PROJECT_DIR$/classes.php" />
     </list>
     <ignored path="Grabber.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -177,32 +27,10 @@
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="100">
               <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#6#125#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="classes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-635">
-              <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataBase.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataBase.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding>
-                <marker date="1461256269490" expanded="true" signature="313:390" placeholder="INSERT INTO COURSES... " />
               </folding>
             </state>
           </provider>
@@ -212,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/Crawler.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
-              <caret line="98" column="70" selection-start-line="98" selection-start-column="70" selection-end-line="98" selection-end-column="70" />
+              <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -274,6 +102,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,15 +124,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="244" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="244" />
@@ -385,34 +213,35 @@
       <workItem from="1460819814208" duration="1225000" />
       <workItem from="1461255308105" duration="1109000" />
       <workItem from="1461256427165" duration="3080000" />
+      <workItem from="1461507148219" duration="18000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16162000" />
+    <option name="totallyTimeSpent" value="16180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20595238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20595238" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3995633" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -433,8 +262,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="100">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#6#125#0#PHP" expanded="true" />
           </folding>
@@ -443,8 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/classes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="1150">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -453,12 +282,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1461256269490" expanded="true" signature="313:390" placeholder="INSERT INTO COURSES... " />
+            <element signature="e#6#125#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes.php" />
+    <entry file="file://$PROJECT_DIR$/DataBase.php" />
     <entry file="file://$PROJECT_DIR$/Crawler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
@@ -540,7 +387,7 @@
     <entry file="file://$PROJECT_DIR$/test.php" />
     <entry file="file://$PROJECT_DIR$/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="100">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#6#125#0#PHP" expanded="true" />
@@ -548,28 +395,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <marker date="1461256269490" expanded="true" signature="313:390" placeholder="INSERT INTO COURSES... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-635">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataBase.php" />
+    <entry file="file://$PROJECT_DIR$/classes.php" />
     <entry file="file://$PROJECT_DIR$/Crawler.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
-          <caret line="98" column="70" selection-start-line="98" selection-start-column="70" selection-end-line="98" selection-end-column="70" />
+          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
           <folding />
         </state>
       </provider>

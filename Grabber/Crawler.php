@@ -6,14 +6,17 @@ class Crawler{
     public $page_html;
 
     public $curl;
+    public $data_index;
     public $loaded_class = array();
 
-    public function __construct() {
+    public function __construct($data_index) {
         global $curl;
+
+        $this->data_index = $data_index;
 
         $curl = curl_init();
         //curl_setopt($curl, CURLOPT_URL, "https://w5.ab.ust.hk/wcq/cgi-bin/1530/subject/COMP");
-        curl_setopt($curl, CURLOPT_URL, "http://ihome.ust.hk/~nhchanaa/cgi-bin/Page.php");
+        curl_setopt($curl, CURLOPT_URL, "http://ihome.ust.hk/~nhchanaa/cgi-bin/Page.php?q=".$data_index);
         //Do not verify the site certificate
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);

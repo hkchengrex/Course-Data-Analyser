@@ -30,7 +30,7 @@
     <?php
         foreach ($Courses as $course){
             echo "<div class=\"mix white\">";
-            echo "<p class=\"title\">$course->code<img src=\"Image/test.jpg\"/></p>";
+            echo "<p class=\"title\">$course->code<img src=\"get_line_overall.php?code=$course->code\"/></p>";
             echo '</div>';
         }
     ?>

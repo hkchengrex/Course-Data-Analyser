@@ -7,6 +7,10 @@ if (empty($_REQUEST['code'])){
 }else {
     $course = $db_helper->getCourse($_REQUEST['code']);
     $sections = $db_helper->getSections($course->code);
+    $lectures = $course->getLectures();
+    $labs = $course->getLabs();
+    $tutorials = $course->getTuts();
+    $researches = $course->getRes();
 }
 ?>
 
@@ -26,7 +30,7 @@ if (empty($_REQUEST['code'])){
 <body>
 <p><img src="Image/header-background.jpg" width="1303" height="70" alt="Header"></p>
 <?php
-    echo "<h2><font color=\"white\">$course->code - $course->name</font></h2>";
+echo "<h2><font color=\"white\">$course->code - $course->name</font></h2>";
 ?>
 
 <p>&nbsp;</p>
@@ -50,23 +54,68 @@ if (empty($_REQUEST['code'])){
 
                 echo "</table><br>";
 
-                echo "<h3>Sections: </h3>";
-
-                foreach ($sections as $section){
-                    echo "<table style=\"width:80%\">";
-                    echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
-                    echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
-                    echo "<tr><td>Room</td><td>$section->room</td></tr>";
-                    echo "<tr><td>Quota</td><td>$section->quota</td></tr>";
-                    echo "</table><br>";
+                if (count($lectures)>0) {
+                    echo "<h3>Lecture: </h3>";
+                    foreach ($lectures as $section) {
+                        echo "<table class='lecture_table'style=\"width:80%\">";
+                        echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
+                        echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
+                        echo "<tr><td>Room</td><td>$section->room</td></tr>";
+                        echo "<tr><td>Quota</td><td>$section->quota</td></tr>";
+                        echo "</table><br>";
+                    }
+                    echo "<br>";
                 }
-                echo "<br>";
+
+                if (count($labs)>0) {
+                    echo "<h3>Labs: </h3>";
+                    foreach ($labs as $section) {
+                        echo "<table class='lab_table'style=\"width:80%\">";
+                        echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
+                        echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
+                        echo "<tr><td>Room</td><td>$section->room</td></tr>";
+                        echo "<tr><td>Quota</td><td>$section->quota</td></tr>";
+                        echo "</table><br>";
+                    }
+                    echo "<br>";
+                }
+
+                if (count($tutorials)>0) {
+                    echo "<h3>Tutorials: </h3>";
+                    foreach ($tutorials as $section) {
+                        echo "<table class='tut_table'style=\"width:80%\">";
+                        echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
+                        echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
+                        echo "<tr><td>Room</td><td>$section->room</td></tr>";
+                        echo "<tr><td>Quota</td><td>$section->quota</td></tr>";
+                        echo "</table><br>";
+                    }
+                    echo "<br>";
+                }
+
+                if (count($researches)>0) {
+                    echo "<h3>Researches: </h3>";
+                    foreach ($researches as $section) {
+                        echo "<table class='re_table'style=\"width:80%\">";
+                        echo "<tr><td colspan=\"2\"><h4>$section->nature$section->match_id($section->id)</h4></td></tr>";
+                        echo "<tr><td>Time</td><td>$section->date_time</td></tr>";
+                        echo "<tr><td>Room</td><td>$section->room</td></tr>";
+                        echo "<tr><td>Quota</td><td>$section->quota</td></tr>";
+                        echo "</table><br>";
+                    }
+                    echo "<br>";
+                }
 
                 ?>
             </div>
             <div class="LeftContent">
-                <p><img src="Image/test.jpg"/></p>
-                <p><img src="Image/test.jpg"/></p>
+                <?php
+                echo "<table>";
+                echo "<img src=\"get_line_overall.php?code=$course->code\"/>";
+                foreach ($course->sections as $section){
+                    echo "<img src=\"get_line_section.php?code=$section->id\"/>";
+                }
+                ?>
             </div>
         </div>
     </div>

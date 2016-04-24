@@ -6,7 +6,7 @@
  * @var $name -             String, i.e. Unix and Script Programming
  * @var $credit -           Integer, i.e. 3
  * @var $prereq -           String, i.e. COMP 1002 OR COMP 1004 [Need to be further processed with logical separation]
- * @var $exclude -          Array of String, i.e. [COMP1021, COMP1239]
+ * @var $exclude -          String
  * @var $attrib -           Array of String, i.e. [SSC - H, SA]
  * @var $pre_code -         String, i.e. COMP111
  * @var $descript -         String, i.e. blah blah blah
@@ -38,6 +38,46 @@ class Course{
         return "Code: $this->code<br>Name: $this->name<br>Credit: $this->credit<br>Prereq: $this->prereq<br>
                 Exclude: $this->exclude<br>Attrib: $this->attrib<br>Pre Code: $this->pre_code<br>
                 Descript: $this->descript<br>Sections :$this->sections<br>Need Match: $this->need_match<br>";
+    }
+
+    function getLectures(){
+        $items = array();
+        foreach ($this->sections as $section){
+            if ($section->nature == 'L'){
+                array_push($items, $section);
+            }
+        }
+        return $items;
+    }
+
+    function getLabs(){
+        $items = array();
+        foreach ($this->sections as $section){
+            if ($section->nature == 'LA'){
+                array_push($items, $section);
+            }
+        }
+        return $items;
+    }
+
+    function getTuts(){
+        $items = array();
+        foreach ($this->sections as $section){
+            if ($section->nature == 'T'){
+                array_push($items, $section);
+            }
+        }
+        return $items;
+    }
+
+    function getRes(){
+        $items = array();
+        foreach ($this->sections as $section){
+            if ($section->nature == 'R'){
+                array_push($items, $section);
+            }
+        }
+        return $items;
     }
 
     function print_out(){

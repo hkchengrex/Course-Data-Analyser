@@ -20,18 +20,38 @@ ini_set('allow_url_include', true);
 echo "Starting..."."<br>";
 
 $db_helper = new DataBase('database.db');
-$crawler = new Crawler();
+
+$data_index = 0;
+if (!empty($_REQUEST['data'])){
+    $data_index = $_REQUEST['data'];
+}
+$crawler = new Crawler($data_index);
 
 echo "Getting..."."<br>";
 $crawler->crawlerGet();
 echo "Loading..."."<br><br>";
 $crawler->loadClasses();
 
-foreach($crawler->loaded_class as $course){
-    /** @var Course $course*/
-    $db_helper->addCourse($course);
-    $course->print_out();
+$db_helper->exec('BEGIN TRANSACTION');
+if ($data_index===0) {
+    foreach ($crawler->loaded_class as $course) {
+        /** @var Course $course */
+        $db_helper->addCourse($course);
+        foreach ($course->sections as $section){
+            $db_helper->addDataSet($section, $data_index+1);
+        }
+        $course->print_out();
+    }
+}else{
+    foreach ($crawler->loaded_class as $course) {
+        /** @var Course $course */
+        foreach ($course->sections as $section){
+            $db_helper->addDataSet($section, $data_index+1);
+        }
+        $course->print_out();
+    }
 }
+$db_helper->exec('COMMIT TRANSACTION');
 
 $db_helper->close();
 

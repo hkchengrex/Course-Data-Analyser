@@ -9,12 +9,12 @@ html, body, .Container
     height: 100%;
 }
 
-    .Container:before
-    {
-        content: '';
-        height: 100%;
-        float: left;
-    }
+.Container:before
+{
+    content: '';
+    height: 100%;
+    float: left;
+}
 
 .Header
 {
@@ -26,12 +26,12 @@ html, body, .Container
     position: relative;
     z-index: 1;
 }
-    .Content:after
-    {
-        content: '';
-        clear: both;
-        display: block;
-    }
+.Content:after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
 
 .Wrapper
 {
@@ -39,17 +39,17 @@ html, body, .Container
     width: 100%;
     height: 100%;
 }
-    .Wrapper > div
-    {
-        height: 100%;
-    }
+.Wrapper > div
+{
+    height: 100%;
+}
 
 .LeftContent
 {
-    
+
     overflow: hidden;
-	width:500px;
-		
+    width:500px;
+
 }
 .LeftContent:hover
 {
@@ -59,9 +59,22 @@ html, body, .Container
 {
     float: right;
     margin-left: 10px;
-	width: 600px;
-	
+    width: 600px;
+
 }
 p.info {
-	color: white;
-	}
+    color: white;
+}
+
+table td, table td * {
+    vertical-align: top;
+}
+
+.table1 {
+    background: rgba(255,255,255,0.5);
+}
+
+td{
+    background: rgba(255,255,255,0.5);
+    color: white;
+}
