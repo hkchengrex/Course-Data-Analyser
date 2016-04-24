@@ -1,0 +1,67 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body, .Container
+{
+    height: 100%;
+}
+
+    .Container:before
+    {
+        content: '';
+        height: 100%;
+        float: left;
+    }
+
+.Header
+{
+    margin-bottom: 20px;
+    background-color: #0404B4;
+}
+.Content
+{
+    position: relative;
+    z-index: 1;
+}
+    .Content:after
+    {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+.Wrapper
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+    .Wrapper > div
+    {
+        height: 100%;
+    }
+
+.LeftContent
+{
+    
+    overflow: hidden;
+	width:500px;
+		
+}
+.LeftContent:hover
+{
+    overflow: auto;
+}
+.RightContent
+{
+    float: right;
+    margin-left: 10px;
+	width: 600px;
+	
+}
+p.info {
+	color: white;
+	}
