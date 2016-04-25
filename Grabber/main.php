@@ -22,10 +22,16 @@ echo "Starting..."."<br>";
 $db_helper = new DataBase('database.db');
 
 $data_index = 0;
-if (!empty($_REQUEST['data'])){
-    $data_index = $_REQUEST['data'];
+if (!empty($_REQUEST['d'])){
+    $data_index = $_REQUEST['d'];
 }
-$crawler = new Crawler($data_index);
+
+$year = 3;
+if (!empty($_REQUEST['y'])){
+    $year = $_REQUEST['y'];
+}
+
+$crawler = new Crawler($data_index, $year);
 
 echo "Getting..."."<br>";
 $crawler->crawlerGet();
@@ -38,20 +44,33 @@ if ($data_index===0) {
         /** @var Course $course */
         $db_helper->addCourse($course);
         foreach ($course->sections as $section){
-            $db_helper->addDataSet($section, $data_index+1);
+            $db_helper->addDataSet($section, $data_index+1, $year);
         }
-        $course->print_out();
     }
 }else{
     foreach ($crawler->loaded_class as $course) {
         /** @var Course $course */
         foreach ($course->sections as $section){
-            $db_helper->addDataSet($section, $data_index+1);
+            $db_helper->addDataSet($section, $data_index+1, $year);
         }
-        $course->print_out();
     }
 }
 $db_helper->exec('COMMIT TRANSACTION');
+
+$new_year = $year+1;
+$new_data = $data_index+1;
+
+echo "This year: $year, This data: $data_index<br>";
+
+$new_data_link = "main.php?y=$year&d=$new_data";
+$new_year_link = "main.php?y=$new_year&d=0";
+
+echo "<button onclick=\"location.href='$new_data_link'\">Next Data</button><br>";
+echo "<button onclick=\"location.href='$new_year_link'\">Next Year</button><br><br>";
+
+foreach ($crawler->loaded_class as $course){
+    $course->print_out();
+}
 
 $db_helper->close();
 

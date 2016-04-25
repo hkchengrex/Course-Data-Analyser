@@ -67,6 +67,7 @@ html, body, .Container
 .graphs td{
     padding-top: 10px;
     padding-bottom: 10px;
+    background: rgba(150,150,150,0.6);
 }
 
 .RightContent

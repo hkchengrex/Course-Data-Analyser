@@ -134,13 +134,13 @@ echo "<h1 class='title'>$course->code - $course->name</h1>";
             <div class="LeftContent">
                 <?php
                 echo "<table class='graphs'>";
-                echo "<tr><td colspan='2'><img class=\"graph\" src=\"get_line_overall.php?code=$course->code\"/></td></tr>";
+                echo "<tr><td colspan='2'><img class=\"graph\" src=\"get_line_overall.php?code=$course->code&y=4\"/></td></tr>";
                 $counter = 1;
                 foreach ($course->sections as $section){
                     if ($counter%2){
                         echo "<tr>";
                     }
-                    echo "<td><img  class=\"graph\" src=\"get_line_section.php?code=$section->id\"/></td>";
+                    echo "<td><img  class=\"graph\" src=\"get_line_section.php?code=$section->id&y=4\"/></td>";
                     if (!$counter%2){
                         echo "</tr>";
                     }
@@ -149,6 +149,56 @@ echo "<h1 class='title'>$course->code - $course->name</h1>";
                 if (count($course->sections)%2){
                     echo "</tr>";
                 }
+
+                $counter = 0;
+                if (count($lectures)>1) {
+                    echo "<tr><td><img  class=\"graph\" src=\"get_pie_course.php?code=$course->code&n=L&y=4\"/></td>";
+                    $counter++;
+                }
+
+                if ($counter===0){
+                    echo "<tr>";
+                }else if($counter>=2){
+                    echo "</tr>";
+                    $counter = 0;
+                }
+
+                if (count($labs)>1) {
+                    echo "<td><img  class=\"graph\" src=\"get_pie_course.php?code=$course->code&n=LA&y=4\"/></td>";
+                    $counter++;
+                }
+
+                if ($counter===0){
+                    echo "<tr>";
+                }else if($counter>=2){
+                    echo "</tr>";
+                    $counter = 0;
+                }
+
+                if (count($tutorials)>1) {
+                    echo "<tr><td><img  class=\"graph\" src=\"get_pie_course.php?code=$course->code&n=T&y=4\"/></td></tr>";
+                    $counter++;
+                }
+
+                if ($counter===0){
+                    echo "<tr>";
+                }else if($counter>=2){
+                    echo "</tr>";
+                    $counter = 0;
+                }
+
+                if (count($researches)>1) {
+                    echo "<tr><td><img  class=\"graph\" src=\"get_pie_course.php?code=$course->code&n=R&y=4\"/></td></tr>";
+                    $counter++;
+                }
+
+                if ($counter===0){
+                    echo "<tr>";
+                }else if($counter>=2){
+                    echo "</tr>";
+                    $counter = 0;
+                }
+
                 echo "</table>";
                 ?>
             </div>

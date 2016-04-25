@@ -31,7 +31,7 @@
         foreach ($Courses as $course){
             echo "<div class=\"mix white\">";
             echo "<a href='detail.php?code=$course->code'>";
-            echo "<p class=\"title\">$course->code</p><img src=\"get_line_overall.php?code=$course->code\"/>";
+            echo "<p class=\"title\">$course->code</p><img src=\"get_line_overall.php?code=$course->code&y=4\"/>";
             echo '</a></div>';
         }
     ?>

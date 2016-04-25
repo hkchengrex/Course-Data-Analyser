@@ -68,15 +68,16 @@ add_section_query
         $query->execute();
     }
 
-    function addDataSet(Section $section, $time){
+    function addDataSet(Section $section, $time, $year){
         $query = $this->prepare(
             <<<add_data_query
         INSERT OR REPLACE INTO 
-                DATA ('section_id', 'time', 'enroll', 'wait', 'avail')
-                VALUES (:id, :time, :enroll, :wait, :avail);
+                DATA ('section_id', 'year', 'time', 'enroll', 'wait', 'avail')
+                VALUES (:id, :year, :time, :enroll, :wait, :avail);
 add_data_query
         );
         $query->bindValue(":id", $section->id);
+        $query->bindValue(":year", $year);
         $query->bindValue(":time", $time);
         $query->bindValue(":enroll", $section->enroll);
         $query->bindValue(":wait", $section->wait);

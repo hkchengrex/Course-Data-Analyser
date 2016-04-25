@@ -3,6 +3,7 @@
 include_once ('../lib/jpgraph/jpgraph.php');
 include_once ('../lib/jpgraph/jpgraph_line.php');
 include_once ('../shar/DataBase.php');
+include_once ('../shar/time_to_time.php');
 
 $db_helper = new DataBase('database.db');
 
@@ -12,6 +13,12 @@ if (empty($_REQUEST['code'])){
     $course_code = $_REQUEST['code'];
 }
 
+if (empty($_REQUEST['y'])){
+    die ('<h1>NO YEAR INPUT</h1>');
+}else {
+    $year = $_REQUEST['y'];
+}
+
 $sections = $db_helper->getSections($course_code);
 $sections_data = array();
 foreach ($sections as $section){
@@ -19,7 +26,7 @@ foreach ($sections as $section){
     $section_id = $section->id;
     $section_name = $section->nature.$section->match_id;
     $query_result = $db_helper->query(<<<select_data
-SELECT * FROM DATA WHERE section_id = $section_id
+SELECT * FROM DATA WHERE section_id = $section_id and year = $year
 select_data
 );
     $enroll = array();
@@ -28,7 +35,7 @@ select_data
     while ($row = $query_result->fetchArray()){
         array_push($enroll, $row['enroll']*100/$section->quota);
         array_push($wait, $row['wait']*100/$section->quota);
-        array_push($time, $row['time']);
+        array_push($time, time_to_time::toTime($row['time']));
     }
     array_push($sections_data, array($section_name, $enroll, $wait, $time));
 }
@@ -48,6 +55,8 @@ $graph->xgrid->Show();
 $graph->xgrid->SetLineStyle("solid");
 $graph->xaxis->SetTickLabels($sections_data[0][3]);
 $graph->xaxis->title->Set("Time");
+$graph->xaxis->SetLabelAngle(0);
+$graph->xaxis->SetTextLabelInterval(2);
 $graph->xgrid->SetColor('#E3E3E3');
 
 foreach ($sections_data as $section_data){

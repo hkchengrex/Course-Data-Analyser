@@ -7,16 +7,18 @@ class Crawler{
 
     public $curl;
     public $data_index;
+    public $year;
     public $loaded_class = array();
 
-    public function __construct($data_index) {
+    public function __construct($data_index, $year) {
         global $curl;
 
         $this->data_index = $data_index;
+        $this->year = $year;
 
         $curl = curl_init();
         //curl_setopt($curl, CURLOPT_URL, "https://w5.ab.ust.hk/wcq/cgi-bin/1530/subject/COMP");
-        curl_setopt($curl, CURLOPT_URL, "http://ihome.ust.hk/~nhchanaa/cgi-bin/Page.php?q=".$data_index);
+        curl_setopt($curl, CURLOPT_URL, "http://ihome.ust.hk/~nhchanaa/cgi-bin/Page.php?y=$year&q=$data_index");
         //Do not verify the site certificate
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
