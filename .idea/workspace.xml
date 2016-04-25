@@ -5,18 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f6336fa-5721-41aa-ae2f-5c245a2af2e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Client/get_pie_course.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shar/time_to_time.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/database.db" afterPath="$PROJECT_DIR$/db/database.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/Scroll.css" afterPath="$PROJECT_DIR$/Client/Scroll.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/detail.php" afterPath="$PROJECT_DIR$/Client/detail.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/get_line_overall.php" afterPath="$PROJECT_DIR$/Client/get_line_overall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/get_line_section.php" afterPath="$PROJECT_DIR$/Client/get_line_section.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Client/index.php" afterPath="$PROJECT_DIR$/Client/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grabber/Crawler.php" afterPath="$PROJECT_DIR$/Grabber/Crawler.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Grabber/main.php" afterPath="$PROJECT_DIR$/Grabber/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shar/DataBase.php" afterPath="$PROJECT_DIR$/shar/DataBase.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PPT/Comp 2021 Project Demo.pptx" afterPath="$PROJECT_DIR$/PPT/Comp 2021 Project Demo.pptx" />
     </list>
     <ignored path="Course-Data-Analyser.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Client/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="189">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -101,11 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_line_section.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="get_line_section.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Client/get_line_section.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+            <state relative-caret-position="243">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Crawler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Grabber/Crawler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -381,7 +380,7 @@
       <workItem from="1461507598881" duration="5037000" />
       <workItem from="1461513487893" duration="736000" />
       <workItem from="1461514244342" duration="8044000" />
-      <workItem from="1461591116826" duration="16033000" />
+      <workItem from="1461591116826" duration="17223000" />
     </task>
     <task id="LOCAL-00001" summary="Making database">
       <created>1460715522569</created>
@@ -401,7 +400,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106841000" />
+    <option name="totallyTimeSpent" value="108031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
@@ -731,14 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Grabber/Crawler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="162" column="17" selection-start-line="162" selection-start-column="17" selection-end-line="162" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shar/DataBase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -779,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Client/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/shar/time_to_time.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -813,8 +796,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client/get_line_section.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        <state relative-caret-position="243">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Grabber/Crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="63" column="43" selection-start-line="63" selection-start-column="43" selection-end-line="63" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Client/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding />
         </state>
       </provider>
