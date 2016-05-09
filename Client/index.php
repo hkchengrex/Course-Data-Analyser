@@ -1,4 +1,11 @@
 <?php
+/**
+ * A COMP2021 Project in HKUST
+ * Author:
+ *      Chan Nok Hin 20349103 nhchanaa@connect.ust.hk
+ *      Cheng Ho Kei 12219689 hkchengad@connect.ust.hk
+ *      Sze Ka Yau ⁠⁠⁠20348496 kyszeaa@connect.ust.hk
+ */
     include_once ('../shar/DataBase.php');
 
     $db_helper = new DataBase('database.db');

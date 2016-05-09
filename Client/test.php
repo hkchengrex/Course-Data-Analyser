@@ -1,4 +1,12 @@
 <?php // content="text/plain; charset=utf-8"
+
+/**
+ * A COMP2021 Project in HKUST
+ * Author:
+ *      Chan Nok Hin 20349103 nhchanaa@connect.ust.hk
+ *      Cheng Ho Kei 12219689 hkchengad@connect.ust.hk
+ *      Sze Ka Yau ⁠⁠⁠20348496 kyszeaa@connect.ust.hk
+ */
 include_once('./lib/jpgraph/jpgraph.php');
 include_once('./lib/jpgraph/jpgraph_line.php');
 

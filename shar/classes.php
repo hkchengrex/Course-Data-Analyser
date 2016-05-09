@@ -1,6 +1,14 @@
 <?php
 
 /**
+ * A COMP2021 Project in HKUST
+ * Author:
+ *      Chan Nok Hin 20349103 nhchanaa@connect.ust.hk
+ *      Cheng Ho Kei 12219689 hkchengad@connect.ust.hk
+ *      Sze Ka Yau ⁠⁠⁠20348496 kyszeaa@connect.ust.hk
+ */
+
+/**
  * A class for course data.
  * @var $code -             String, i.e. COMP2021
  * @var $name -             String, i.e. Unix and Script Programming
